@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+  font-family: 'Arial', sans-serif;
+}
+
+a {
+  color: #bb86fc; /* Accent color for links */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* White text for headings */
+}
