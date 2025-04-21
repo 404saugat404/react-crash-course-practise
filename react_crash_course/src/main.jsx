@@ -6,7 +6,10 @@ import App from './App.jsx'
 import reactImg from './assets/react.svg'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  // <StrictMode>
+  //   <App />
+  // </StrictMode>,
+  <browserRouter>
     <App />
-  </StrictMode>,
+  </browserRouter>
 )
